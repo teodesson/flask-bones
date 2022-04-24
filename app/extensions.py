@@ -8,7 +8,7 @@ from flask_mail import Mail
 from flask_migrate import Migrate
 from flask_rq2 import RQ
 from flask_travis import Travis
-from werkzeug.contrib.cache import SimpleCache
+from cachelib.simple import SimpleCache
 
 assets = Environment()
 babel = Babel()
